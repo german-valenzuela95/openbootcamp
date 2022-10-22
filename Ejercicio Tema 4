@@ -1,0 +1,64 @@
+public class Main {
+  public static void main(String[] args) {
+     int numeroIF =1;
+     if(numeroIF >0)
+     {
+       System.out.println("Es Positivo \n");
+     }
+     else if (numeroIF <0)
+     {
+       System.out.println("Es Negativo \n");
+     }
+     else
+     {
+       System.out.println("Es Cero \n");
+     }
+     
+     
+     
+     //////
+     int numeroWhile = 0;
+   while (numeroWhile <3){
+     System.out.println(numeroWhile);
+         numeroWhile++;
+     }
+     
+     
+    //////
+ 
+          do{
+    System.out.println("Iteracion de DOWHILE \n"+numeroWhile +"\n");
+           
+      } 
+      while(numeroWhile <3);
+      
+      
+      ////////
+     for(int numeroFor=0; numeroFor <= 3; numeroFor++ ){
+     System.out.println(numeroFor );
+     }
+     
+     
+     /////
+     int estacion =4;
+     switch (estacion) {
+        case 1:
+        System.out.println("primavera");
+        break;
+        
+         case 2:
+        System.out.println("verano");
+        break;
+        
+         case 3:
+        System.out.println("otoño");
+        break;
+        
+         case 4:
+        System.out.println("invierno");
+        break;
+       default:
+          System.out.println("No es una estacion");
+     }
+     }
+     }
