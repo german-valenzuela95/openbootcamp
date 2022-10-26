@@ -4,13 +4,13 @@ public class Main {
 
         Persona persona = new Persona();
         persona.setEdad(27);
-        System.out.println(persona.getEdad());
+        System.out.println("Mi Edad Es: " + persona.getEdad() + " Años");
 
-        persona.setNombre("german");
-        System.out.println(persona.getNombre());
+        persona.setNombre("German Valenz");
+        System.out.println("Mi Nombre Es: " + persona.getNombre());
 
-        persona.setTelefono(1234567890);
-        System.out.println(persona.getTelefono());
+        persona.setTelefono(639123478);
+        System.out.println("Mi Numero Es: " + persona.getTelefono());
 
     }
 }
