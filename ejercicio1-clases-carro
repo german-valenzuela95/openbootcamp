@@ -1,0 +1,33 @@
+class Vehiculo:
+    _color = ""
+    def Color(self):
+        self._color = "Azul"
+
+    _ruedas = 0
+    def Ruedas(self):
+        self._ruedas = "4"
+
+    _puerta = 0
+    def Puertas(self):
+        self._puerta ="4"
+
+class Coche(Vehiculo):
+    _velocidad =0
+    def Velocidad(self):
+        self._velocidad= "140km/h"
+
+    _cilindrada =0
+    def Cilindrada(self):
+        self._cilindrada = "1500cc"
+
+c = Coche()
+c.Color()
+c.Ruedas()
+c.Puertas()
+c.Velocidad()
+c.Cilindrada()
+print("El Color De La Puerta Es: "+ c._color +
+      "\n" + f"El Vehiculo Tiene {c._ruedas} Ruedas" +"\n"
+      + f"El Vehiculo Tiene {c._puerta} Puertas" "\n"
+      +"La Velocidad Del Vehiculo Es: " +c._velocidad + "\n"
+      +"La Cilindrada Del Motor Es: "+ c._cilindrada)
