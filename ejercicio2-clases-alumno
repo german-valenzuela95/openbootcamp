@@ -1,0 +1,15 @@
+class Alumno:
+
+    def Escuela(self):
+        self._nombre = "German"
+        self._nombre1 = "Iris"
+        self._nota = 5
+
+        if self._nota < 6:
+            print(f"Ha Reprobado La Materia: \nNombre Del Alumno: {self._nombre}" "\n"+"Nota:", self._nota)
+        else:
+            print(f"Ha Aprobado La Materia: \nNombre De La Alumna: {self._nombre1}" "\n"+"Nota:", self._nota)
+            
+p = Alumno()
+p.Escuela()
+print()
