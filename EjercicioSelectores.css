@@ -1,0 +1,28 @@
+.boton {
+    padding: 1rem 1rem;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    
+}
+.boton::before {
+    content: "Pasa por encima";
+    position: relative;
+    text-transform: uppercase;
+}
+.boton::after {
+    content: "¡HECHO!";
+    position: relative;
+    opacity: 0;
+    background-color: green;
+    color: white;
+    left: -40%;
+
+}
+.boton:hover::before {
+    opacity: 0;
+
+}
+.boton:hover::after {
+    opacity: 1;
+}
